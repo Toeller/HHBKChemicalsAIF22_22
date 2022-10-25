@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace HHBKChemicalsAIF22_22
 {
-    public partial class Form1 : Form
+    public partial class FensterMaria : Form
     {
-        public Form1()
+        public FensterMaria()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
