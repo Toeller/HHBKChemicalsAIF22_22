@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FensterMaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FensterMaria.Designer.cs">
+      <DependentUpon>FensterMaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdrian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdrian.Designer.cs">
+      <DependentUpon>FormAdrian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsFabian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsFabian.Designer.cs">
+      <DependentUpon>FormsFabian.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Alex.cs">
       <SubType>Form</SubType>
@@ -58,11 +76,19 @@
     <Compile Include="Form_Alex.Designer.cs">
       <DependentUpon>Form_Alex.cs</DependentUpon>
     </Compile>
+
     <Compile Include="Mehmet_Forms.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Mehmet_Forms.Designer.cs">
       <DependentUpon>Mehmet_Forms.cs</DependentUpon>
+
+    <Compile Include="Form_Alex2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Alex2.Designer.cs">
+      <DependentUpon>Form_Alex2.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +98,20 @@
     <Compile Include="ViewKasse.Designer.cs">
       <DependentUpon>ViewKasse.cs</DependentUpon>
     </Compile>
+
+    <EmbeddedResource Include="FensterMaria.resx">
+      <DependentUpon>FensterMaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="FormAdrian.resx">
+      <DependentUpon>FormAdrian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsFabian.resx">
+      <DependentUpon>FormsFabian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Alex.resx">
       <DependentUpon>Form_Alex.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +121,7 @@
     <Compile Include="View_William.Designer.cs">
       <DependentUpon>View_William.cs</DependentUpon>
     </Compile>
+
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
