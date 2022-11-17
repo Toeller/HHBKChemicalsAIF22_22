@@ -76,11 +76,19 @@
     <Compile Include="Form_Alex.Designer.cs">
       <DependentUpon>Form_Alex.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="Mehmet_Forms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mehmet_Forms.Designer.cs">
+      <DependentUpon>Mehmet_Forms.cs</DependentUpon>
+
     <Compile Include="Form_Alex2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Alex2.Designer.cs">
       <DependentUpon>Form_Alex2.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
