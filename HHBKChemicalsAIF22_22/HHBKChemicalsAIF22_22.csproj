@@ -52,11 +52,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAdrian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdrian.Designer.cs">
+      <DependentUpon>FormAdrian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsFabian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsFabian.Designer.cs">
+      <DependentUpon>FormsFabian.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Alex.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Alex.Designer.cs">
       <DependentUpon>Form_Alex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Alex2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Alex2.Designer.cs">
+      <DependentUpon>Form_Alex2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,6 +84,12 @@
     <Compile Include="ViewKasse.Designer.cs">
       <DependentUpon>ViewKasse.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAdrian.resx">
+      <DependentUpon>FormAdrian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsFabian.resx">
+      <DependentUpon>FormsFabian.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Alex.resx">
       <DependentUpon>Form_Alex.cs</DependentUpon>
     </EmbeddedResource>
